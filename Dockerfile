@@ -1,5 +1,5 @@
 FROM node:alpine
-WORKDIR "/my_de_app"
+WORKDIR "/DE_jenkins"
 
 COPY package.json .
 RUN npm install
